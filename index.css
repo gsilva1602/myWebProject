@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(25, 51, 77);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
+.perfil-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+h2{
+    font-size: 38px; 
+    font-weight: bold; 
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.perfil-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.socialIcons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.socialIcons a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.socialIcons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.socialIcons img:hover {
+    transform: scale(1.2);
+}
+
+.socialIcons i {
+    color: #fff; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.socialIcons i:hover {
+    transform: scale(1.2);
+}
+
+.animated-download-button {
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 15%;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #508db6;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 3%;
+    left: 42%;
+    align-items: center;
+}
+
+.animated-download-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.box {
+    background-color: #508db6;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rba(0, 0, 0, 0.2);
+    max-width: 600px;
+    color: #333;
+    position: fixed;
+    bottom: 15%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.box p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.text-resumo {
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 20px;
+    position: fixed;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.animated-download-button {
+    animation: blink 2s infinite; /* 2s de duração, repetição infinita */
+}
+
+.animated-download-button:hover {
+    animation: none; /* Remove a animação quando o mouse estiver sobre o botão */
+}
