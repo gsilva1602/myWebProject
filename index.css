@@ -46,10 +46,12 @@ h2{
 }
 
 .perfil-img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
+
 }
 
 .socialIcons {
@@ -97,7 +99,7 @@ h2{
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: fixed;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     bottom: 3%;
     left: 42%;
