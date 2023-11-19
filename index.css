@@ -91,6 +91,8 @@ h2{
 .socialIcons i {
     color: #fff; 
     transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 .socialIcons i:hover {
