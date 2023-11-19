@@ -12,6 +12,11 @@ body {
     background: linear-gradient(to bottom, #7c9eb4, #11151a);
 }
 
+#content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 header {
     text-align: center;
     margin-top: 0;
@@ -20,7 +25,7 @@ header {
     position: fixed;
     top: 0;
     border-radius: 0;
-    padding: 0;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease-in-out;
 }
@@ -31,14 +36,21 @@ header {
     object-fit: cover;
 }
 
+#content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 h1{
     font-size: 48px; 
     font-weight: bold; 
     color: #fff; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin: 5px 0;
 }
 
 h2{
+    margin: 5px 0;
     font-size: 38px; 
     font-weight: bold; 
     color: #fff; 
