@@ -18,7 +18,7 @@ body {
 
 header {
     text-align: center;
-    margin-top: 0;
+    margin-top: 0 auto;
     width: 100%;
     background-color: #2c3e50;
     position: fixed;
@@ -29,15 +29,16 @@ header {
     transition: background-color 0.3s ease-in-out;
 }
 .perfil-img {
-    width: 200px;
-    height: 200px;
+    width: 10%;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
-    padding: 0;
+    padding: 0 auto;
+    max-width: 100%;
 }
 
 h1{
-    font-size: 48px; 
+    font-size: 30px; 
     font-weight: bold; 
     color: #fff; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
@@ -46,24 +47,16 @@ h1{
 
 h2{
     margin: 5px 0;
-    font-size: 38px; 
+    font-size: 25px; 
     font-weight: bold; 
     color: #fff; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-.perfil-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
-
-}
-
 .socialIcons {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 5px;
 }
 
 .socialIcons a {
@@ -72,8 +65,8 @@ h2{
 }
 
 .socialIcons img {
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out; 
 }
@@ -85,7 +78,7 @@ h2{
 .socialIcons i {
     color: #fff; 
     transition: transform 0.3s ease-in-out;
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px;
 }
 
@@ -95,12 +88,12 @@ h2{
 
 .animated-download-button {
     margin-bottom: 15px auto;
+    border: 1px solid #ddd;
     padding: 20px;
     width: 15% auto;
-    font-size: 30px;
+    font-size: 17px;
     text-align: center;
     text-decoration: none;
-    background-color: #8aa6b9;
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -119,7 +112,6 @@ h2{
 }
 
 .box {
-    background-color: 8aa6b9;
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 10px;
@@ -127,19 +119,19 @@ h2{
     max-width: 600px;
     color: #333;
     position: fixed;
-    bottom: 20%;
+    bottom: 15%;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
 }
 
 .box h1 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 15px;
     text-align: center;
 }
 
 .box p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.6;
     margin-bottom: 15px;
     color: #ddd;
