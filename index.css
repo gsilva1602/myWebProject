@@ -91,7 +91,7 @@ h2{
     border: 1px solid #ddd;
     padding: 20px;
     width: 15% auto;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -102,7 +102,7 @@ h2{
     display: inline-block;
     flex-direction: column;
     bottom: 3%;
-    left: 42%;
+    left: 44%;
     align-items: center;
 }
 
@@ -113,10 +113,10 @@ h2{
 
 .box {
     border: 1px solid #ddd;
-    padding: 15px auto;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rba(0, 0, 0, 0.2);
-    max-width: 600px;
+    max-width: 500px;
     color: #333;
     position: fixed;
     bottom: 15%;
@@ -125,13 +125,13 @@ h2{
 }
 
 .box h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
 }
 
 .box p {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.6;
     margin-bottom: 15px;
     color: #ddd;
