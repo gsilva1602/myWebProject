@@ -102,7 +102,7 @@ h2{
     display: inline-block;
     flex-direction: column;
     bottom: 3%;
-    left: 44%;
+    left: 43%;
     align-items: center;
 }
 
@@ -164,5 +164,45 @@ h2{
 }
 
 @media only screen and (max-width: 600px) {
-    /* Estilos específicos para telas menores que 600px */
+    body {
+        font-size: 24px;
+    }
+    
+    .box {
+        right: 5%;
+        left: 5%;
+        bottom: 17%;
+    }
+
+    .box h1{
+        font-size: 15px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .perfil-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .animated-download-button {
+        left: 32%;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .socialIcons {
+        width: 20px;
+        
+        font-size: 30px;
+    }
 }
