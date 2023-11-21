@@ -13,8 +13,6 @@ body {
 
 .cabeça {
     width: 100%;
-    max-height: 30vw;
-    flex: 1;
     padding-top: 80px;
 }
 
@@ -33,7 +31,7 @@ header {
 
 .perfil-img {
     width: 10%;
-    height: auto;
+    height: 10%;
     border-radius: 50%;
     object-fit: cover;
     padding: 0 auto;
@@ -41,7 +39,7 @@ header {
 }
 
 h1{
-    font-size: 30px; 
+    font-size: 30px;
     font-weight: bold; 
     color: #fff; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
@@ -59,7 +57,7 @@ h2{
 .socialIcons {
     position: fixed;
     top: 10px;
-    right: 5px;
+    right: 10px;
 }
 
 .socialIcons a {
@@ -167,6 +165,7 @@ h2{
     animation: none; /* Remove a animação quando o mouse estiver sobre o botão */
 }
 
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 24px;
@@ -209,6 +208,10 @@ h2{
         width: 20px;
         font-size: 30px;
     }
+
+    .photo {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-height: 600px) {
@@ -229,4 +232,10 @@ h2{
     .animated-download-button {
         bottom: 8% auto;
     }
+
+    .photo {
+        width: 90%;
+    }
+
+
 }
