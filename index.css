@@ -11,14 +11,11 @@ body {
     background: linear-gradient(to bottom, #7c9eb4, #11151a);
 }
 
-#content {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
 .cabeça {
     width: 100%;
     max-height: 30vw;
+    flex: 1;
+    padding-top: 80px;
 }
 
 header {
@@ -33,6 +30,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease-in-out;
 }
+
 .perfil-img {
     width: 10%;
     height: auto;
@@ -94,8 +92,7 @@ h2{
 .animated-download-button {
     margin-bottom: 15px auto;
     border: 1px solid #ddd;
-    padding: 20px;
-    width: 15% auto;
+    padding: 15px;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
@@ -104,27 +101,29 @@ h2{
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: fixed;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
-    bottom: 3%;
-    left: 43%;
+    bottom: 2%;
+    left: 43% auto;
     align-items: center;
 }
 
 .animated-download-button:hover {
-    background-color: #2980b9;
+    background-color: #1d4158;
     transform: scale(1.1);
 }
 
 .box {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     box-shadow: 0 0 10px rba(0, 0, 0, 0.2);
     max-width: 500px;
     color: #333;
     position: fixed;
-    bottom: 15%;
+    bottom: 12%;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -174,9 +173,9 @@ h2{
     }
     
     .box {
-        right: 5%;
-        left: 5%;
-        bottom: 17%;
+        right: 5% auto;
+        left: 5% auto;
+        bottom: 20%;
         padding: 5px;
     }
 
@@ -189,13 +188,13 @@ h2{
     }
 
     .perfil-img {
-        height: 100px;
+        height: 100px auto;
         width: 100px;
     }
 
     .animated-download-button {
-        left: 38%;
         font-size: 12px;
+        bottom: 5%;
     }
 
     h1 {
@@ -209,5 +208,25 @@ h2{
     .socialIcons {
         width: 20px;
         font-size: 30px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .box {
+        bottom: 15%;
+        height: auto;
+        width: auto;
+    }
+
+    .box h1 {
+        font-size: 15px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .animated-download-button {
+        bottom: 8% auto;
     }
 }
